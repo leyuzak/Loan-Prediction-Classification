@@ -61,13 +61,12 @@ jupyter notebook
 
 > **Note:** The dataset may contain personally identifiable information in real scenarios. Make sure to comply with your organization’s data handling policies.
 
-## Results
-The notebook prints a table like:
-Model  Accuracy  Precision    Recall  F1-score   ROC-AUC
-0                  Linear  0.587863   0.744204  0.607902  0.669183  0.605830
-1  RandomForestClassifier  0.807733   0.808938  0.942123  0.870466  0.829558
-2              GaussianNB  0.618243   0.754883  0.656399  0.702204  0.629589
-3             BernoulliNB  0.691939   0.707360  0.939352  0.807014  0.622077
+| Model                  | Accuracy  | Precision  | Recall   | F1-score  | ROC-AUC  |
+|------------------------|-----------|------------|----------|-----------|----------|
+| Linear                 | 0.587863  | 0.744204   | 0.607902 | 0.669183  | 0.605830 |
+| RandomForestClassifier | 0.807733  | 0.808938   | 0.942123 | 0.870466  | 0.829558 |
+| GaussianNB             | 0.618243  | 0.754883   | 0.656399 | 0.702204  | 0.629589 |
+| BernoulliNB            | 0.691939  | 0.707360   | 0.939352 | 0.807014  | 0.622077 |
 
 ## License
 This project is licensed under the **MIT License** (see `LICENSE`).
